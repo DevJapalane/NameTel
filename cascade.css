@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(2, 0, 0);
+    font-family: lato;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrados {
+    display: flex;
+    margin-top: 200px;
+}
+
+h1 {
+    background-color: rgb(116, 7, 7);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#formulario {
+  background-color: #222;  /* fundo do formulário */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#formulario input {
+  background-color: #000000;  /* fundo dos campos */
+  color: rgb(255, 255, 255);            /* cor do texto digitado */
+  border: 1px solid #d82727;  /* borda mais suave */
+  padding: 8px;
+  border-radius: 4px;      /* cantos arredondados */
+  margin: 5px;             /* espaçamento entre os campos */
+}
