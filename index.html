@@ -16,25 +16,31 @@
             <h1>CRM Local</h1>
         </header>
         <form id="formulario">
-            <input type="text" required placeholder="Nome e Sobrenome">
-            <input type="tel" required placeholder="Telefone: (xx)x xxxx.xxxx">
+            <input id="nomeInputado" type="text" required placeholder="Nome e Sobrenome">
+            <input id="telInputado" type="tel" required placeholder="Telefone: (xx)x xxxx.xxxx">
             <button type="submit">Cadastrar +</button>
         </form>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Telefone</th>
-            </tr>
-        </thead>
-
         <div class="cadastrados"><h1>Cadastrados:</h1></div>
-
-            <tbody>
-                <tr>
-                    <td>Kalane Maciel</td>
-                    <td>(51)99012.2228</td>
-                </tr>
-            </tbody>
+            <table cellspacing="20" id="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- aqui vai coisas -->
+                </tbody>
+            </table>
+        </div>
     </div>
+        <footer>
+            <div class="container">
+                <p>
+                    &copy; CRM Local by Kalane M. - Todos os direitos reservados - 2025
+                </p>
+        </footer>
+    </div>    
+    <script src="./script.js"></script>
 </body>
 </html>
